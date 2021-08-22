@@ -1,0 +1,32 @@
+html,
+body{
+    font-size: 10px;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+}
+
+.mybtn-su{
+    font-size: 1.6rem;
+    border-radius: 39px;
+}
+
+.page-1{
+    background-image: linear-gradient(to bottom left, #CB1AE8, #37BDA6);
+}
+
+.mynav1{
+    margin-bottom: 10px;
+}
+
+
+.page-2{
+    background-image: linear-gradient(to bottom left, #CB1AE8, #37BDA6);
+}
+
