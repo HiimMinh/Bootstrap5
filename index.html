@@ -8,100 +8,164 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="styles.css">
+
 
 
   <!-- External CSS-->
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="styles.css">
 
   <title>Figma Landing</title>
 </head>
 
 <body>
-  <!-- <div class="page-1 container-fluid">
+  <div class="page-1 container-fluid">
+    <nav class="navbar navbar-expand-sm navbar-dark">
+      <div class="mynav-cont container-fluid row-cols-3">
 
-    <nav class="mynav1 row-cols-3 navbar navbar-expand-sm">
+        <!-- NAV BRAND-->
+        <a class="col-lg-3 col-md-4 col-sm-4 col-7 mybrand navbar-brand order-sm-1 d-flex justify-content-center"
+          href="#"><img class="me-4 me-sm-0" src="./img/logo.png"></a>
+        <!-- /NAV BRAND-->
 
-      <div class="mylogo col-md-4 col-sm-6 col-6 d-flex justify-content-center">
-        <a class="navbar-brand" href="#"><img src="logo.png" atl="logo"></a>
-      </div>
-
-
-      <div class="collapse navbar-collapse mynav d-flex justify-content-center container row-cols-4 col-lg-4 col-md-5 col-6 d-md-inline-flex d-sm-none d-none" id="navbarNav">
-        
-        <a class="nav-link text-lg-center text-light col-3 " href="#">Home</a>
-
-        <a class="nav-link text-lg-center text-light col-3" href="#">Product</a>
-
-        <a class="nav-link text-lg-center text-light col-3" href="#">About</a>
-
-        <a class="nav-link text-lg-center text-light col-3" href="#">Contact</a>
-      </div>
-
-
-      <div class="col-md-3 col-sm-3 col-3 my-btn d-flex justify-content-center row">
-        <div class="col-lg-5 col-md-6 col-sm-6 d-grid gap-2 col-7 mx-auto">
-          <button class="mybtn-su btn btn-outline-light btn-lg " type="button">Sign up</button>
-        </div>
-
-      </div>
-
-      <div class="mytoggle col-3 col-sm-3 col-3">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-      
-        
-
-    </nav>
-
-  </div> -->
-
-
-  <div class="page-2 container-fluid">
-    <nav class="row-cols-3 navbar navbar-expand-sm navbar-dark">
-      <div class="col-lg-3 col-md-4 col-sm-3 d-flex justify-content-center">
-        <a class="navbar-brand" href="#"><img src="logo.png" alt="logo"></a>
-      </div>
-
-        <div class="col-lg-6 col-md-6 collapse navbar-collapse d-flex justify-content-center  p-3" id="navbarSupportedContent">
-          <ul class="col-lg-8 col-md-8 col-sm-12 navbar-nav me-md-5"> <!-- me-auto mb-2 mb-lg-0 -->
-            <li class="col-3 nav-item">
-              <a class="nav-link text-light text-lg-center" aria-current="page" href="#Home">Home</a>
-            </li>
-            <li class="col-3 nav-item">
-              <a class="nav-link text-light text-lg-center" href="#">Product</a>
-            </li>
-            <li class="col-3 nav-item">
-              <a class="nav-link text-light text-lg-center" href="#">About</a>
-            </li>
-            <li class="col-3 nav-item">
-              <a class="nav-link text-light text-lg-center" href="#">Contact</a>
-            </li>
-          </ul>
-          
-        </div>
-
-        <div class="col-lg-3 col-md-2 col-sm-3 d-flex justify-content-center">
-          <div class="col-lg-5 col-md-8 col-sm-5 d-grid gap-2 col-7 mx-auto">
-            <button class="btn btn-outline-light mybtn-su btn-lg" type="submit">Sign up</button>
+        <!-- BUTTON SIGN UP-->
+        <form class="order-sm-3 col-lg-3 col-md-2 col-sm-2 col-3 d-flex justify-content-center me-0">
+          <div class="d-grid gap-2 col-lg-5 col-md-8 col-sm-10">
+            <button class="mybtn-su btn btn-outline-light btn-lg ms-2 ms-sm-0" type="button">Sign up</button>
           </div>
-        </div>
 
-        <div class="col-sm-3">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        </form>
+        <!-- /BUTTON SIGN UP-->
+
+        <!-- BUTTON TOGGLER-->
+        <div class="col-2 d-sm-none d-flex justify-content-center">
+          <button class="navbar-toggler col-8 me-3 me-sm-0" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
         </div>
 
-        
-        
-      
-        
+        <!-- /BUTTON TOGGLER-->
+
+        <!-- NAVBAR-->
+        <div class="order-sm-2 col-lg-6 col-md-6 col-sm-5 collapse navbar-collapse d-sm-flex justify-content-center"
+          id="navbarSupportedContent1">
+          <ul class="col-lg-6 col-md-9 col-sm-10 navbar-nav ms-lg-5 me-xl-5 ">
+            <li class="nav-item col-3">
+              <a class="nav-link text-center text-light ms-5 ms-sm-0" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item  col-3">
+              <a class="nav-link text-center text-light ms-5 ms-sm-0" href="#">Product</a>
+            </li>
+            <li class="nav-item  col-3">
+              <a class="nav-link text-center text-light ms-5 ms-sm-0" href="#">About</a>
+            </li>
+            <li class="nav-item  col-3">
+              <a class="nav-link text-center text-light ms-5 ms-sm-0" href="#">Contact</a>
+            </li>
+          </ul>
+          <!-- /NAVBAR-->
+        </div>
+      </div>
     </nav>
+
+    <div class="main container">
+      <div class="header">
+        <h1 class="myh1 text-light text-center">Find the Best Solution<br> in Seconds</h1>
+        <p class="myp1 text-light text-center p-5 py-0">If debugging is the process of removing software bugs.</p>
+      </div>
+
+      <div class="d-flex flex-column align-items-center d-sm-flex flex-sm-row justify-content-center row-cols-sm-2">
+        <div class="d-grid gap-2 col-lg-2 col-md-3 col-sm-4 col-7 d-flex justify-content-center"
+          style="margin: 6px 0px;">
+          <button type="button" class="mybtn2 btn btn-light text-black btn-lg mybtn-su">get start</button>
+        </div>
+
+        <div class="d-grid gap-2 col-lg-2 col-md-3 col-sm-4 col-7 d-flex justify-content-center"
+          style="margin: 6px 0px;">
+          <button type="button" class="mybtn2 btn btn-outline-light btn-lg mybtn-su">try for free</button>
+        </div>
+      </div>
+    </div>
+
+    <div class=" container-fluid d-flex justify-content-center">
+      <img class="img-fluid" src="./img/screen.png" alt="screen" style="margin: 50px 0px;">
+    </div>
   </div>
-  
+
+  <!-- PAGE-2-->
+  <div class="page-2 container-fluid">
+    <div class="d-flex justify-content-center">
+      <h3 class="myh3" style="font-style: normal;
+                  font-size: 4.6rem;
+                  font-weight: 500;
+                  line-height: 57px;
+                  letter-spacing: 0.2px;
+                  text-align: center;">
+        FigmaLand was Built Specifically <br> for You</h3>
+    </div>
+
+    <!--  CARDS  -->
+    <div class="row-cols-xxl-3 container-fluid d-flex flex-lg-row justify-content-lg-center flex-column" style="margin-bottom: 30px; padding: 0">
+
+      <div class="col-lg-4 col-12 d-flex justify-content-center">
+        <div class="page-2-card page-2-card-plus">
+          <div class="div-card">
+            <img src="./img/img-card-1.png" class="card-img-top page-2-icon " alt="...">
+          </div>
+          
+          <div class="page-2-card-body">
+            <h5 class="page-2-card-title">Management</h5>
+            <p class="page-2-card-text">
+              State help you see how many more days you need to work to reach your financial goal for the month and year
+            </p>
+            <a href="#" class="page-2-card-link">Learn more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-12 d-flex justify-content-center">
+        <div class="page-2-card"
+          style="width: 90%; background-image: linear-gradient(to bottom left, #CB1AE8, #37BDA6);">
+          <div class="div-card">
+            <img src="./img/img-card-2.png" class="page-2-icon">
+          </div>
+          
+          <div class="page-2-card-body">
+            <h5 class="page-2-card-title text-light">Customer Support</h5>
+            <p class="page-2-card-text text-light">
+              State help you see how many more days you need to work to reach your financial goal for the month and year
+            </p>
+            <a href="#" class="page-2-card-link text-light">Learn more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-12 d-flex justify-content-center">
+        <div class="page-2-card page-2-card-plus">
+
+          <div class="div-card">
+            <img src="./img/img-card-3.png" class="card-img-top page-2-icon" alt="...">
+          </div>
+
+          <div class="page-2-card-body">
+            <h5 class="page-2-card-title">Collaborative</h5>
+            <p class="page-2-card-text">
+              State help you see how many more days you need to work to reach your financial goal for the month and year
+            </p>
+            <a href="#" class="page-2-card-link">Learn more</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+<!-- PAGE 3 -->
+
+
+
+
   <!-- Javascript Link -->
   <script src="js/bootstrap.min.js"></script>
 </body>

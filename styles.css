@@ -1,6 +1,7 @@
 html,
 body{
     font-size: 10px;
+    font-family: 'Poppins', sans-serif;
 }
 
 *{
@@ -8,6 +9,7 @@ body{
     margin: 0px;
 }
 
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PAGE-1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .nav-link{
     font-size: 1.5rem;
 }
@@ -17,16 +19,231 @@ body{
     border-radius: 39px;
 }
 
-.page-1{
-    background-image: linear-gradient(to bottom left, #CB1AE8, #37BDA6);
-}
-
 .mynav1{
     margin-bottom: 10px;
 }
 
+.page-1{
+    background-image: linear-gradient(to bottom left, #CB1AE8, #37BDA6);
+
+   padding: 0px;
+}
+
+.mybrand{
+    margin: 15px 0px;
+}
+
+.mynav-cont{
+    padding: 0px;
+}
+
+.main{
+    margin-top: 73px;
+}
+
+.myh1{
+    font-style: normal;
+    font-size: 5.5rem;
+    font-weight: 900;
+    line-height: 65px;
+    letter-spacing: 0.2px;
+
+    margin-top: 45px;
+    margin-bottom: 7px;
+}
+
+.myp1{
+    font-size: 1.6rem;
+    margin: 10px 0px;
+}
+
+.header{
+    margin-bottom: 60px;
+}
+
+.mybtn2{
+    width: 85%;
+    padding: 13px 10px;
+}
+
+@media (max-width: 576px){
+    .myh1{
+        font-style: normal;
+        font-size: 4.6rem;
+        font-weight: 500;
+        line-height: 57px;
+    }
+}
+
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PAGE-2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 .page-2{
-    background-image: linear-gradient(to bottom left, #CB1AE8, #37BDA6);
+    padding: 5rem 12rem;
+    margin-top: 50px;
 }
+
+@media (max-width: 576px){
+    .page-2{
+        padding: 4rem 5rem;
+    }
+}
+
+.myh3{
+    margin-top: 5rem;
+    margin-bottom: 9rem;
+    
+}
+
+@media (max-width: 576px){
+    .myh3{
+        margin-top: 0rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* PAGE-2 CARD */
+
+.page-2-card{
+    width: 90%;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+@media (max-width: 992px){
+    .page-2-card{
+        margin: 3rem 0rem;
+    }
+}
+
+.page-2-card-plus{
+    border: 1px solid #DEDEDE;
+    
+}
+
+.page-2-icon{
+    width: 16%; 
+    margin: 4rem 0rem 1rem 5rem;
+}
+
+@media (max-width: 992px){
+    .page-2-icon{
+        justify-content: center;
+        margin: 3rem;
+    }
+}
+
+@media (max-width: 576px){
+    .page-2-icon{
+        margin: 3rem 0 0 0;
+    }
+}
+
+
+.page-2-card-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 3.3rem;
+    letter-spacing: 0.1px;
+
+    margin: 10px 0px;
+}
+
+@media (max-width: 1200px){
+    .page-2-card-title{
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 992px){
+    .page-2-card-title{
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+
+.page-2-card-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    letter-spacing: 0.2px;
+    color: #5C5C5C;
+
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1200px){
+    .page-2-card-text{
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 992px){
+    .page-2-card-text{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+}
+@media (max-width: 576px){
+    .page-2-card-text{
+        font-size: 1.8rem;
+        padding: 0 5rem;
+        margin: 0 0 2rem 0;
+    }
+}
+
+.page-2-card-link{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 2.7rem;  
+    letter-spacing: 0.2px;
+    color: #03D6F3;
+}
+
+@media (max-width: 1200px){
+    .page-2-card-link{
+        font-size: 1.4rem;
+    }
+}
+@media (max-width: 992px){
+    .page-2-card-link{
+        font-size: 1.8rem;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 576px){
+    .page-2-card-link{
+        font-size: 1.5rem;
+    }
+}
+
+.page-2-card-body{
+    padding: 0rem 5rem;
+    margin-bottom: 5rem;
+}
+
+@media (max-width: 576px){
+    .page-2-card-body{
+        padding: 0;
+    }
+}
+
+@media (max-width: 992px){
+    .div-card{
+        display: flex;
+        justify-content: center;
+    }
+}
+    
+
 
