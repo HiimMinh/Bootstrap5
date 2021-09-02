@@ -835,6 +835,11 @@ li{
 
     padding: 2rem;
 }
+@media(max-width: 576px){
+    .page7-ul{
+       padding: 1rem;
+    }
+}
 
 .page-7-p{
     margin-top: 5rem;
